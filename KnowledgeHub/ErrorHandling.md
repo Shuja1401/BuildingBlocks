@@ -45,3 +45,18 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 finally:
     print("This always runs")'''</pre>
+
+
+## Common exceptions in python
+
+| Exception           | When it occurs                           |
+| ------------------- | ---------------------------------------- |
+| `ValueError`        | Right type, invalid value (`int("abc")`) |
+| `TypeError`         | Wrong type (`"5" + 5`)                   |
+| `ZeroDivisionError` | Division by zero                         |
+| `IndexError`        | List index out of range                  |
+| `KeyError`          | Dictionary key not found                 |
+| `FileNotFoundError` | File doesn’t exist                       |
+| `NameError`         | Variable not defined                     |
+| `AttributeError`    | Object has no such attribute             |
+
