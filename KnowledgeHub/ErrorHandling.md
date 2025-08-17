@@ -49,14 +49,29 @@ finally:
 
 ## Common exceptions in python
 
-| Exception           | When it occurs                           |
-| ------------------- | ---------------------------------------- |
-| `ValueError`        | Right type, invalid value (`int("abc")`) |
-| `TypeError`         | Wrong type (`"5" + 5`)                   |
-| `ZeroDivisionError` | Division by zero                         |
-| `IndexError`        | List index out of range                  |
-| `KeyError`          | Dictionary key not found                 |
-| `FileNotFoundError` | File doesn’t exist                       |
-| `NameError`         | Variable not defined                     |
-| `AttributeError`    | Object has no such attribute             |
-
+| Exception             | Meaning / When it occurs                                         |
+| --------------------- | ---------------------------------------------------------------- |
+| `TypeError`           | Wrong type of object for an operation (e.g., `"5" + 5`)          |
+| `IndexError`          | Index out of range in sequences (lists, tuples, strings)         |
+| `KeyError`            | Key not found in a dictionary                                    |
+| `AttributeError`      | Object doesn’t have the attribute/method you’re trying to access |
+| `NameError`           | Variable or name not defined                                     |
+| `ZeroDivisionError`   | Division or modulo by zero                                       |
+| `ValueError`          | Correct type, but invalid value (e.g., `int("abc")`)             |
+| `FileNotFoundError`   | File you are trying to open doesn’t exist                        |
+| `IOError` / `OSError` | Input/output operation failed (file, network, etc.)              |
+| `ImportError`         | Cannot import a module                                           |
+| `ModuleNotFoundError` | Module doesn’t exist                                             |
+| `StopIteration`       | No more items in an iterator (used with `next()`)                |
+| `OverflowError`       | Result too large to be represented (e.g., `math.exp(1000)`)      |
+| `FloatingPointError`  | Floating point operation failed                                  |
+| `MemoryError`         | Not enough memory to perform an operation                        |
+| `AssertionError`      | Raised by failed `assert` statements                             |
+| `RuntimeError`        | Generic error that doesn’t fit other categories                  |
+| `RecursionError`      | Maximum recursion depth exceeded                                 |
+| `KeyboardInterrupt`   | Program interrupted by user (Ctrl+C)                             |
+| `SystemExit`          | Program is exiting (`sys.exit()`)                                |
+| `IndentationError`    | Bad indentation in code                                          |
+| `TabError`            | Mixing tabs and spaces in indentation                            |
+| `SyntaxError`         | Invalid Python syntax                                            |
+| `UnboundLocalError`   | Local variable referenced before assignment                      |
