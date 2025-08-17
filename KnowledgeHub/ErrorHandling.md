@@ -19,7 +19,8 @@ except ValueError:
 except ZeroDivisionError:
     print("Cannot divide by zero!")'''</pre>
 
-# Using exception to capture different types of errors. It will print the exact error
+# Using else with try & except
+*Else run this if no exception occurs.
 <pre>'''
 **python** 
 try:
@@ -27,3 +28,20 @@ try:
 except Exception as e:
     print("An error occurred:", e)
 OUTPUT: An error occurred: division by zero'''</pre>
+
+try:
+    x = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+else:
+    print("Division successful, result:", x)'''</pre>
+
+# Use of finally: This always runs. It is not dependent on success of try or except.
+<pre>'''
+**python**
+try:
+    x = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("This always runs")'''</pre>
