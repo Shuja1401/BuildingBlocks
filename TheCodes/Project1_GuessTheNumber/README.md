@@ -4,3 +4,4 @@ Concepts learned
 Error checking
 Use of continue and break
 Indentation errors
+The program flow and structure of code blocks within the program.
