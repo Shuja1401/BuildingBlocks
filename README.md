@@ -3,14 +3,14 @@ This is the repository of my Python projects. These are ten basic, school-level 
 
 ## List of Projects
 <pre>
-1. Calculator [X]
-2. Number Guessing Game [X]
-3. To-Do List (Text-based) [X]
-4. Contact Book [X]
-5. Digital Dice Roller [X]
-6. Simple Quiz Game [X]
-7. Unit Converter [X]
-8. Expense Tracker [X]
-9. Password Generator [X]
-10. Mini Text-Based Adventure Game [X]
+1. Calculator [x]
+2. Number Guessing Game [x]
+3. To-Do List (Text-based) []
+4. Contact Book []
+5. Digital Dice Roller []
+6. Simple Quiz Game []
+7. Unit Converter []
+8. Expense Tracker []
+9. Password Generator []
+10. Mini Text-Based Adventure Game []
 </pre>
