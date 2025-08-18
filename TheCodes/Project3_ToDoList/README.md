@@ -1,3 +1,4 @@
+Time taken to complete the project: 1 hour 50 minutes.
 The program creates a To-do list. It allows a user to add, delete, update and show an existing list.
 The scope of variables.
   - Defining a variable inside a loop will reset the variable after successive iteration.
