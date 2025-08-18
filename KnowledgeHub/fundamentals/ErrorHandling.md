@@ -2,6 +2,8 @@ Error handling feature in python allows a program to continue running and not cr
 For example: if we perform 5/0 then it will not abruptly stop, instead we can control the flow and print("Error").
 In python 'try' and 'except' are used for this purpose.
 
+Try performs a function, and except catches an error and records its type. We can then use the print statement to reveal the type of error. The benefit is we get to know what type of error happened in the bacground.
+
 <pre>'''
 **python**
 try:
