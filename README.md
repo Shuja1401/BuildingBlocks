@@ -5,7 +5,7 @@ This is the repository of my Python projects. These are ten basic, school-level 
 <pre>
 1. Calculator [x]
 2. Number Guessing Game [x]
-3. To-Do List (Text-based) []
+3. To-Do List (Text-based) [x]
 4. Contact Book []
 5. Digital Dice Roller []
 6. Simple Quiz Game []
