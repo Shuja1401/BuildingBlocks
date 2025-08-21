@@ -10,3 +10,11 @@ Not just instances of classes you write — literally everything: numbers, strin
 - An identity → where it lives in memory (can be checked with id()).
 - A type → tells what kind of object it is (checked with type()).
 - A value → the actual content it holds.
+
+#if not:
+If not is used when you want to check if a "thing" is false.
+For example:
+x="false"
+if not x:
+  print("x is false.")
+  
