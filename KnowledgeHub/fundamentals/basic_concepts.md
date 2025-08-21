@@ -11,7 +11,7 @@ Not just instances of classes you write — literally everything: numbers, strin
 - A type → tells what kind of object it is (checked with type()).
 - A value → the actual content it holds.
 
-# if not:  
+# if not  
 If not is used when you want to check if a "thing" is false, empty, or zero.
 <pre>For example:
 1. **False**
