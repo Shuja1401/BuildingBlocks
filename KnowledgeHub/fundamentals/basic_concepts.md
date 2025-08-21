@@ -12,9 +12,18 @@ Not just instances of classes you write — literally everything: numbers, strin
 - A value → the actual content it holds.
 
 #if not:
-If not is used when you want to check if a "thing" is false.
+If not is used when you want to check if a "thing" is false, empty, or zero.
 For example:
+1. **False**
 x="false"
-if not x:
+**if not** x:
   print("x is false.")
-  
+2. **Empty**
+   list=[]
+   **if not** list:
+     print("list is empty")
+3. **Zero**
+num=0
+**if not** num:
+    print("Number is zero")
+5.   
