@@ -26,3 +26,5 @@ x="false"
 num=0
 **if not** num:
     print("Number is zero")</pre>
+
+# Using dict[key] is called dictionary key lookup (or "indexing by key").
