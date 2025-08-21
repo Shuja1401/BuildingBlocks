@@ -1,3 +1,12 @@
+# Control flow in Python includes:
+
+<pre>1. Conditionals → if, elif, else
+2. Loops → for, while
+3. Loop controls → break, continue, pass
+4. Function exit → return
+5. Exception handling → try, except, finally, raise</pre>
+
+
 ## break
 Immediately exit the nearest enclosing loop (`for` or `while`).
 
