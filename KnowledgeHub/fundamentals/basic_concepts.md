@@ -28,3 +28,7 @@ num=0
     print("Number is zero")</pre>
 
 # Using dict[key] is called dictionary key lookup (or "indexing by key").
+<pre>x = nums.pop(2) # returns a value.
+num.remove(2) # matches a value and returns it.
+del remove[1] # deletes a value at a particular index.
+</pre>
