@@ -8,4 +8,6 @@ It helps me stay focused by “parking” distractions here.
 2. Digital product
 3. API
 4. dunder
+5. hash tables
+6. DSA
 </pre>
