@@ -13,7 +13,7 @@ Not just instances of classes you write — literally everything: numbers, strin
 
 #if not:
 If not is used when you want to check if a "thing" is false, empty, or zero.
-For example:
+<pre>For example:
 1. **False**
 x="false"
 **if not** x:
@@ -25,5 +25,4 @@ x="false"
 3. **Zero**
 num=0
 **if not** num:
-    print("Number is zero")
-5.   
+    print("Number is zero")</pre>
