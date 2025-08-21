@@ -60,6 +60,29 @@ But if you used `is` instead of `==`, it wouldn’t match here because the two `
 * `is` → compares **memory identity**.
 * `.remove(x)` → internally uses `==` to compare list items.
 
----
 
-👉 Do you want me to also show you the **C code from Python’s list implementation** (how `.remove()` is written under the hood) so you see the exact comparison step?
+Example of using "==" and "is" in dictionary:
+
+a = {"name": "Alice"}
+b = {"name": "Alice"}
+c = a   # c points to the same object as a
+
+print("a == b:", a == b)   # ✅ True (same content)
+print("a is b:", a is b)   # ❌ False (different memory addresses)
+
+print("a == c:", a == c)   # ✅ True (same content)
+print("a is c:", a is c)   # ✅ True (same memory address)
+
+print("id(a):", id(a))
+print("id(b):", id(b))
+print("id(c):", id(c))
+
+Output: 
+
+a == b: True
+a is b: False
+a == c: True
+a is c: True
+id(a): 140404444875776
+id(b): 140404444878336
+id(c): 140404444875776
