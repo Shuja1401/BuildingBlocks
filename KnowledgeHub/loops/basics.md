@@ -23,3 +23,4 @@ So we use "while true:" to run an infinite loop. We can bring the loop to stop b
 
 ## continue
 This statement will skip the remaining line of codes inside the loop and move the cursor to the beginning of the next iteration.
+Use continue only if you have more code below in the loop that you want to skip.
