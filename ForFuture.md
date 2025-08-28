@@ -13,3 +13,9 @@ It helps me stay focused by “parking” distractions here.
 7. What is stack overflow? What causes it? How to prevent?
 8. Quiz maps with Streamlit
 </pre>
+
+# Need further study:
+<pre>Methods, classes, objects
+use of self in defining function
+Accessing elements of nested data structures
+Flow of a programme</pre>
