@@ -31,6 +31,6 @@ num=0
 <pre>x = nums.pop(2) # returns a value.
 num.remove(2) # matches a value and removes it.
 del remove[1] # deletes a value at a particular index.
+</pre>
 
 ## File objects in python are read line by line and not word/character by word/character. So if we run a file object using enumerate it will iterate over one line at a time.
-</pre>
