@@ -12,6 +12,7 @@ It helps me stay focused by “parking” distractions here.
 6. DSA
 7. What is stack overflow? What causes it? How to prevent?
 8. Quiz maps with Streamlit
+9. Contructors
 </pre>
 
 # Need further study:
