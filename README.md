@@ -8,7 +8,7 @@ This is the repository of my Python projects. These are ten basic, school-level 
 3. To-Do List (Text-based) [x]
 4. Contact Book [x]
 5. Digital Dice Roller [x]
-6. Simple Quiz Game []
+6. Simple Quiz Game [x]
 7. Unit Converter []
 8. Expense Tracker []
 9. Password Generator []
