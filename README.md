@@ -9,8 +9,7 @@ This is the repository of my Python projects. These are ten basic, school-level 
 4. Contact Book [x]
 5. Digital Dice Roller [x]
 6. Simple Quiz Game [x]
-7. Unit Converter []
-8. Expense Tracker []
-9. Password Generator []
-10. Mini Text-Based Adventure Game []
+7. Expense Tracker []
+8. Password Generator []
+9. Mini Text-Based Adventure Game []
 </pre>
